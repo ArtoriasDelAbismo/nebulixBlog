@@ -1,7 +1,8 @@
 [build]
   publish = "dist"
   edge_functions = "edge-functions"
-
+  command = “CI= npm run build”
+  
 [[edge_functions]]
   function = "subscribe-mailchimp"
   path = "/api/subscribe-mailchimp"
