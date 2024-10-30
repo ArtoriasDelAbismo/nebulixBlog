@@ -10,6 +10,9 @@
     "mdx",
     "markdown"
   ],
+  "engines": {
+    "node": "16.x"
+  },
   "description": "Fast & Green Theme Based on Astro + Static CMS. A Universe of Possibilities: Blogs, Portfolios, Menus, Webshop & Beyond",
   "scripts": {
     "postbuild": "pagefind --site dist --output-path dist/_pagefind",
